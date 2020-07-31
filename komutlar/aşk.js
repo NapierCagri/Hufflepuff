@@ -9,7 +9,7 @@ exports.run = async (client, message, args) => {
         if(!member) {
                 const embed = new Discord.RichEmbed()
                         .setDescription(`Ölçmek İçin Birini Etiketlemelisin Mesala @deneme gibi`)
-                        .setColor("FF0000")
+                        .setColor("DFBF20")
                         .setTimestamp()
                 message.channel.send({embed})
                 return
