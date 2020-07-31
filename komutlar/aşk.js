@@ -16,11 +16,21 @@ exports.run = async (client, message, args) => {
         }
        
         var anasonuc = Math.floor(Math.random() * 101)
+        if(s.id === "463725962064822283") {
+          
+           if(member.id === "695132305878155374") {
+            
+          var anasonuc = 0
+          
+        }
+          
+        }
+        else {
           if(member.id === "695132305878155374") {
             
           var anasonuc = 100
           
-        }
+        } }
         var kalp = ''
         var akalp = ''
         if(Math.floor(Math.round(anasonuc / 10) * 10) >= 10) {
