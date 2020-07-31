@@ -155,8 +155,11 @@ client.on("message", msg => {
   if (msg.content.toLowerCase() === "athena") {
     msg.channel.send("Çamaşır sulu pıçak (Ne âlâkaysa) <@678609679017967616>");
   }
-  if (msg.content.toLowerCase() === "brian") {
-    msg.channel.send("Get this man a microphone");
+  if (msg.content.toLowerCase() === "amras") {
+    const embed = new Discord.RichEmbed();
+    msg.channel.send(
+      "Hufflepuff'ın gururu", {file: "https://i.pinimg.com/originals/50/40/54/504054e0ba229b36defb15996299d8d1.gif"}
+    );
   }
   if (msg.content.toUpperCase() === "GÜNAYDIN") {
     var gnd = [
